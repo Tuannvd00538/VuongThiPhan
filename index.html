@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Giới thiệu bản thân</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.effect {
+			width: 100%;
+		}
+
+		.effect h2 {
+			color: #fff;
+			font-family: 'Playfair Display', serif;
+			font-weight: 400;
+			font-size: 25px;
+			letter-spacing: 3px;
+		}
+
+		.effect:nth-child(2) {
+			margin-top: 50px;
+		}
+
+		.effect:nth-child(2n+1) {
+			background-color: #fff;
+		}
+
+		.effect:nth-child(2n+1) h2 {
+			color: #212121;
+		}
+
+		.effect .buttons {
+			display: -webkit-box;
+			display: flex;
+			-webkit-box-pack: center;
+			justify-content: center;
+		}
+
+		.effect a:last-child {
+			margin-right: 0px;
+		}
+
+		.effect a {
+			text-decoration: none !important;
+			color: #fff;
+			width: 60px;
+			height: 60px;
+			display: -webkit-box;
+			display: flex;
+			-webkit-box-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			justify-content: center;
+			border-radius: 10px;
+			margin-right: 20px;
+			font-size: 25px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.effect a i {
+			position: relative;
+			z-index: 3;
+		}
+
+		.effect a.fb {
+			background-color: #3b5998;
+		}
+
+		.effect a.tw {
+			background-color: #00aced;
+		}
+
+		.effect a.g-plus {
+			background-color: #dd4b39;
+		}
+
+		.effect a.dribbble {
+			background-color: #ea4c89;
+		}
+
+		.effect a.pinterest {
+			background-color: #cb2027;
+		}
+
+		.effect a.insta {
+			background-color: #bc2a8d;
+		}
+
+		.effect a.in {
+			background-color: #007bb6;
+		}
+
+		.effect a.vimeo {
+			background-color: #1ab7ea;
+		}
+
+		/* aeneas effect */
+		.effect.aeneas a {
+			-webkit-transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+			transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+			transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+			transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+		}
+
+		.effect.aeneas a i {
+			-webkit-transition: -webkit-transform 0.4s linear 0s;
+			transition: -webkit-transform 0.4s linear 0s;
+			transition: transform 0.4s linear 0s;
+			transition: transform 0.4s linear 0s, -webkit-transform 0.4s linear 0s;
+		}
+
+		.effect.aeneas a:hover {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+			border-radius: 50%;
+		}
+
+		.effect.aeneas a:hover i {
+			-webkit-transform: rotate(-360deg);
+			transform: rotate(-360deg);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-4">
+				<h4>Giới Thiệu Bản Thân</h4>
+				<ul>
+					<li>Họ và Tên: Vương Thị Phấn</li>
+					<li>Lớp: K62TYF</li>
+					<li>Khoa: Thú Y</li>
+					<li>Ngày sinh: 09/06/1999</li>
+					<li>Email: vuongthiphuong19991@gmail.com</li>
+					<li>Quê quán: Quốc Oai - Hà Nội</li>
+				</ul>
+				<div class="effect aeneas mt-4">
+					<div class="buttons">
+						<a href="https://www.facebook.com/vuongthiphuong1999" target="_blank" class="fb"
+							title="Vương Thị Phấn"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/vgphg99" target="_blank" class="tw" title="Vương Thị Phấn"><i
+								class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/phuongggg99" target="_blank" class="insta"
+							title="Vương Thị Phấn"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<img src="https://i.imgur.com/RYUJp5F.png" class="img-thumbnail" alt="Vương Thị Phấn">
+			</div>
+			<div class="col-sm-4">
+				<h4>Sở Thích</h4>
+				<p><i>Yêu thích động vật</i></p>
+				<p>Say mê nghiên cứu khoa học</p>
+				<p>Thích trồng cây cảnh trang trí vườn nhà</p>
+				<p>Đam mê nấu ăn, trang trí bữa ăn</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<h4>Môn học cùng kì:</h4>
+		<table class="table table-striped table-bordered">
+			<thead>
+				<tr>
+					<th>STT</th>
+					<th>Môn học</th>
+					<th>Ý nghĩa môn học</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Nội Khoa Thú Y</td>
+					<td>Nội khoa là phân ngành trong y khoa liên quan đến việc ngăn ngừa, chẩn đoán và điều trị các bệnh
+						của cơ quan bên trong cơ thể.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Ngoại Khoa Thú Y</td>
+					<td>Ngoại khoa thú y là một môn khoa học chuyên nghiên cứu những nguyên tắc và phương pháp chung
+						thực hiện các phẫu thuật ngoại khoa và các bệnh ngoại khoa xảy ra ở vật nuôi.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Sinh Sản Gia Súc</td>
+					<td>Nắm bắt được quá trình động dục của gia súc, quá trình giao phối. các bước và các cách tiếp cận
+						gia súc để tiến hành thụ tinh nhân tạo.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>CNTT-Phát triển Web cơ bản</td>
+					<td>Tìm hiểu về khoa học máy tính-Website, cách xây dựng một Website cơ bản cho đến phức tạp.</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
